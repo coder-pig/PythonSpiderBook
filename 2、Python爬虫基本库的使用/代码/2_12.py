@@ -3,6 +3,8 @@ urllib.robotparser使用示例
 """
 
 from urllib import robotparser
+import ssl
+ssl._create_default_https_context = ssl._create_unverified_context
 
 rp = robotparser.RobotFileParser()
 # 设置rebots.txt文件的链接

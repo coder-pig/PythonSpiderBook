@@ -17,7 +17,7 @@ proxy_ips_file = 'proxy_ips.txt'
 proxy_ips = []
 
 # 文章地址
-article_url = 'https://blog.csdn.net/JackLang/article/details/81592985'
+article_url = 'https://blog.csdn.net/l1028386804/article/details/116191713'
 
 # 请求头
 headers = {
@@ -47,7 +47,7 @@ def read_article():
     urllib.request.install_opener(opener)
     try:
         req = urllib.request.Request(article_url, headers=headers)
-        resp = urllib.request.urlopen(req, timeout=20).read()
+        resp = urllib.request.urlopen(req, timeout=20)
         # 如果返回码是200代表访问成功
         if resp is not None and resp.status == 200:
             global read_count

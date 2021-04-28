@@ -1,5 +1,5 @@
 """
-itchat模拟Post请求
+urllib模拟Post请求示例
 """
 import urllib.request
 import urllib.parse
