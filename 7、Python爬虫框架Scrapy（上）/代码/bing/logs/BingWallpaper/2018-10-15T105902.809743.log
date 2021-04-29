@@ -1,0 +1,59 @@
+2018-10-15 10:59:03 [scrapy] DEBUG: Crawled (200) <GET https://cn.bing.com/HPImageArchive.aspx?format=js&idx=1&n=7&nc=1539572342&pid=hp> (referer: None)
+2018-10-15 10:59:03 [scrapy] DEBUG: File (uptodate): Downloaded image from <GET https://cn.bing.com/az/hprichbg/rb/BodeBerlin_ZH-CN6982399462_1920x1080.jpg> referred in <None>
+2018-10-15 10:59:03 [scrapy] DEBUG: File (uptodate): Downloaded image from <GET https://cn.bing.com/az/hprichbg/rb/ZeroDegrees_ZH-CN10117368234_1920x1080.jpg> referred in <None>
+2018-10-15 10:59:03 [scrapy] DEBUG: File (uptodate): Downloaded image from <GET https://cn.bing.com/az/hprichbg/rb/LascauxCavePainting_ZH-CN11733576571_1920x1080.jpg> referred in <None>
+2018-10-15 10:59:03 [scrapy] DEBUG: File (uptodate): Downloaded image from <GET https://cn.bing.com/az/hprichbg/rb/SchoolGirls_ZH-CN10666418108_1920x1080.jpg> referred in <None>
+2018-10-15 10:59:03 [scrapy] DEBUG: File (uptodate): Downloaded image from <GET https://cn.bing.com/az/hprichbg/rb/HubbleSaturn_ZH-CN12020278371_1920x1080.jpg> referred in <None>
+2018-10-15 10:59:03 [scrapy] DEBUG: File (uptodate): Downloaded image from <GET https://cn.bing.com/az/hprichbg/rb/MarshallPoint_ZH-CN9062933060_1920x1080.jpg> referred in <None>
+2018-10-15 10:59:03 [scrapy] DEBUG: File (uptodate): Downloaded image from <GET https://cn.bing.com/az/hprichbg/rb/SandiaSunrise_ZH-CN11155504388_1920x1080.jpg> referred in <None>
+2018-10-15 10:59:03 [scrapy] DEBUG: Scraped from <200 https://cn.bing.com/HPImageArchive.aspx?format=js&idx=1&n=7&nc=1539572342&pid=hp>
+{'image_urls': ['https://cn.bing.com/az/hprichbg/rb/BodeBerlin_ZH-CN6982399462_1920x1080.jpg',
+                'https://cn.bing.com/az/hprichbg/rb/ZeroDegrees_ZH-CN10117368234_1920x1080.jpg',
+                'https://cn.bing.com/az/hprichbg/rb/LascauxCavePainting_ZH-CN11733576571_1920x1080.jpg',
+                'https://cn.bing.com/az/hprichbg/rb/SchoolGirls_ZH-CN10666418108_1920x1080.jpg',
+                'https://cn.bing.com/az/hprichbg/rb/HubbleSaturn_ZH-CN12020278371_1920x1080.jpg',
+                'https://cn.bing.com/az/hprichbg/rb/MarshallPoint_ZH-CN9062933060_1920x1080.jpg',
+                'https://cn.bing.com/az/hprichbg/rb/SandiaSunrise_ZH-CN11155504388_1920x1080.jpg'],
+ 'images': [{'checksum': 'dc935f1115f39bf76b9f983e6affe29f',
+             'path': 'full/bca701f1923e317aa8a9be18125c2a894fc80780.jpg',
+             'url': 'https://cn.bing.com/az/hprichbg/rb/BodeBerlin_ZH-CN6982399462_1920x1080.jpg'},
+            {'checksum': 'adbcc3f3fa26188db600654137117e2a',
+             'path': 'full/e254600d400f3c54c77171e02b021d46369788ae.jpg',
+             'url': 'https://cn.bing.com/az/hprichbg/rb/ZeroDegrees_ZH-CN10117368234_1920x1080.jpg'},
+            {'checksum': '092f09cdb791bedf29913ad3d1940960',
+             'path': 'full/c14461fb44425865b9afe6695ab5926e2001411c.jpg',
+             'url': 'https://cn.bing.com/az/hprichbg/rb/LascauxCavePainting_ZH-CN11733576571_1920x1080.jpg'},
+            {'checksum': 'a8cfd0a149f520f7bc18dd237ce264d7',
+             'path': 'full/97e86cde9a308e626f537c107303537ec598903c.jpg',
+             'url': 'https://cn.bing.com/az/hprichbg/rb/SchoolGirls_ZH-CN10666418108_1920x1080.jpg'},
+            {'checksum': 'a0c7d5e136ef2e06407bc42e86873fc1',
+             'path': 'full/4099096a19a0eaad0aef6782a206881d948ad775.jpg',
+             'url': 'https://cn.bing.com/az/hprichbg/rb/HubbleSaturn_ZH-CN12020278371_1920x1080.jpg'},
+            {'checksum': 'fb6823a2a509458d285fcfc2d4f96b99',
+             'path': 'full/5295941635a2aa9c67cebf27c7bdbfc9a27230e9.jpg',
+             'url': 'https://cn.bing.com/az/hprichbg/rb/MarshallPoint_ZH-CN9062933060_1920x1080.jpg'},
+            {'checksum': '6ebfdb5210fce5986b88d07053ac94af',
+             'path': 'full/885648740905a26703e18c1ae24f23c480ecc822.jpg',
+             'url': 'https://cn.bing.com/az/hprichbg/rb/SandiaSunrise_ZH-CN11155504388_1920x1080.jpg'}]}
+2018-10-15 10:59:03 [scrapy] INFO: Closing spider (finished)
+2018-10-15 10:59:03 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 270,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 2711,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'file_count': 7,
+ 'file_status_count/uptodate': 7,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 10, 15, 2, 59, 3, 536799),
+ 'item_scraped_count': 1,
+ 'log_count/DEBUG': 9,
+ 'log_count/INFO': 6,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2018, 10, 15, 2, 59, 3, 51096)}
+2018-10-15 10:59:03 [scrapy] INFO: Spider closed (finished)

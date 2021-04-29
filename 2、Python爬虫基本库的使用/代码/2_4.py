@@ -1,5 +1,5 @@
 """
-urllib模拟Post请求示例
+urllib模拟Post请求示例(伪代码，不能直接请求)
 """
 import urllib.request
 import urllib.parse

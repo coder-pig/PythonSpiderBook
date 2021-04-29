@@ -1,0 +1,43 @@
+2018-10-15 10:43:03 [scrapy] DEBUG: Crawled (200) <GET https://cn.bing.com> (referer: None)
+2018-10-15 10:43:04 [scrapy] ERROR: Spider error processing <GET https://cn.bing.com> (referer: None)
+Traceback (most recent call last):
+  File "c:\users\coderpig\appdata\local\programs\python\python37-32\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\users\coderpig\appdata\local\programs\python\python37-32\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "c:\users\coderpig\appdata\local\programs\python\python37-32\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\users\coderpig\appdata\local\programs\python\python37-32\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\coderpig\appdata\local\programs\python\python37-32\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\Code\Python\bing\bing\spiders\BingWallpaper.py", line 17, in parse
+    json_result = json.loads(response.body.decode('utf8'))
+  File "c:\users\coderpig\appdata\local\programs\python\python37-32\lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "c:\users\coderpig\appdata\local\programs\python\python37-32\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\users\coderpig\appdata\local\programs\python\python37-32\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-10-15 10:43:04 [scrapy] INFO: Closing spider (finished)
+2018-10-15 10:43:04 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 210,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 48361,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 10, 15, 2, 43, 4, 73509),
+ 'log_count/DEBUG': 1,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 6,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'spider_exceptions/JSONDecodeError': 1,
+ 'start_time': datetime.datetime(2018, 10, 15, 2, 43, 3, 665598)}
+2018-10-15 10:43:04 [scrapy] INFO: Spider closed (finished)
